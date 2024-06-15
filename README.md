@@ -1,30 +1,26 @@
 # CRIME DATA ANALYSIS
 
-This repository contains the Jupyter Notebook for Project 1 by Group 17, focused on the analysis and cleaning of a dataset as part of the coursework for IE6400 (Fundamentals Of Data Analytics).
+This repository contains the Jupyter Notebook focused on the analysis and cleaning of a crime-related dataset as part of the coursework for IE6400 (Fundamentals Of Data Analytics).
 
 ## Project Overview
 
-In this project, we perform extensive data cleaning and analysis on a provided dataset. The notebook details each step of the process, from handling missing values to adjusting data types and removing outliers. Our primary focus is to prepare the data for subsequent analytical tasks and ensure its integrity.
+This project involves rigorous data cleaning and analysis of a crime data set provided by the course instructors. We've meticulously documented each step in our Jupyter Notebook, demonstrating how we handle missing data, adjust data types, and tackle statistical outliers. The goal is to refine the dataset to a state that supports robust analytical studies, ensuring data integrity and usability for predicting trends and patterns in crime incidents.
 
 ## Data Cleaning Highlights
 
-- **Handling Missing Values**: We addressed columns with significant numbers of missing entries, such as the 'Vict Sex' column, by removing entries lacking data.
-- **Value Correction**: We standardized the entries in the 'Vict Sex' column to 'M' for Male, 'F' for Female, and 'X' for Others. Similarly, we corrected implausible values (like negative numbers) in the 'Vict Age' column.
+- **Handling Missing Values**: Significant missing data in critical columns like 'Vict Sex' were identified and addressed by omitting rows that lacked essential information, ensuring a more reliable dataset for analysis.
+- **Value Correction**: We enforced data consistency in categorical data such as 'Vict Sex' by standardizing values to 'M' (Male), 'F' (Female), and 'X' (Other). For 'Vict Age', we removed nonsensical entries, such as negative values, to uphold the dataset’s logical integrity.
 
 ## Analysis Performed
 
-The notebook includes various analytical techniques to explore the dataset further:
-- Identification and removal of outliers.
-- Detailed exploratory data analysis to understand the distribution and relationships within the data.
+Our analytical approach is methodical and varied to ensure a comprehensive understanding of the crime data:
+- **Outlier Detection and Removal**: Employed statistical techniques to identify and exclude data points that deviate excessively from the mean, which could potentially skew the analysis.
+- **Exploratory Data Analysis (EDA)**: Conducted thorough EDA to uncover underlying patterns, relationships, and anomalies in the data. This includes visualization of data distributions, correlation studies between different variables, and preliminary hypothesis testing.
 
 ## Tools Used
 
-- Python
-- Libraries: Pandas, NumPy
-
-## Installation
-
-To run this project, clone the repository and ensure you have Jupyter Notebook installed. You can install the necessary Python libraries using the following command:
-
-```bash
-pip install -r requirements.txt
+- **Python**: Chosen for its versatility and the extensive support of libraries for data analysis.
+- **Libraries**: 
+  - **Pandas**: Utilized for efficient data manipulation and cleaning.
+  - **NumPy**: Employed for numerical operations on data arrays.
+  - **Matplotlib/Seaborn**: Used for creating static, interactive, and animated visualizations to better understand the data.
