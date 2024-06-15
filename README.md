@@ -10,7 +10,6 @@ This project involves rigorous data cleaning and analysis of a crime data set pr
 
 - **Handling Missing Values**: Significant missing data in critical columns like 'Vict Sex' were identified and addressed by omitting rows that lacked essential information, ensuring a more reliable dataset for analysis.
 - **Value Correction**: We enforced data consistency in categorical data such as 'Vict Sex' by standardizing values to 'M' (Male), 'F' (Female), and 'X' (Other). For 'Vict Age', we removed nonsensical entries, such as negative values, to uphold the dataset’s logical integrity.
- https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iteratorshq.com%2Fblog%2Fdata-cleaning-in-5-easy-steps%2F&psig=AOvVaw0lxyaX3PeRNrPUtSIriKCO&ust=1718576916616000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCUpIfU3oYDFQAAAAAdAAAAABAR![image](https://github.com/shaunkirthan/Crime-Data-Analysis/assets/122591072/79652a56-5ab6-42ac-8eff-57c8725991ef)
 
 ## Analysis Performed
 
