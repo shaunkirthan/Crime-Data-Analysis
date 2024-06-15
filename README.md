@@ -2,6 +2,8 @@
 
 This repository contains the Jupyter Notebook focused on the analysis and cleaning of a crime-related dataset as part of the coursework for IE6400 (Fundamentals Of Data Analytics).
 
+![Data Cleaning Cycle](images/image.png)
+
 ## Project Overview
 
 This project involves rigorous data cleaning and analysis of a crime data set provided by the course instructors. We've meticulously documented each step in our Jupyter Notebook, demonstrating how we handle missing data, adjust data types, and tackle statistical outliers. The goal is to refine the dataset to a state that supports robust analytical studies, ensuring data integrity and usability for predicting trends and patterns in crime incidents.
